@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+body{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 120px;
+    background-color: #D5E1EF;
+}
+
+section{
+    width: 320px;
+    height: 497px;
+    border-radius: 20px;
+    padding: 16px 0;
+    background-color: #fff;
+    display: block;
+    
+
+}
+img{
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+}
+
+.texto{
+    margin: 16px 16px;
+}
+p{
+    margin: 16px 0 ;
+}
+
+@media screen and (max-width: 550px){
+img{
+    
+    margin: 16px;
+}
+}
+    
